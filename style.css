@@ -1,0 +1,119 @@
+body {
+
+    margin: 0;
+
+    //background-color: rgb(220, 220, 220);
+    font-family: Tahoma;
+}
+
+
+
+a {
+    color: rgb(6, 104, 54);
+    font-weight: bold;
+}
+
+div.genArea {
+    background-color: rgb(238, 238, 238);
+    position: static;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    text-align: center;
+    //border-bottom-style: solid;
+    //border-width: 1px;
+
+    border-color: gray;
+    //box-shadow: 0px 5px 10px rgb(130, 130, 130);
+    z-index: 1;
+}
+
+div.infoTip {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+
+    border-color: gray;
+    border-radius: 5px;
+
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+
+    font-size: 11px;
+    color: rgb(100, 100, 100);
+    //font-weight: bold;
+}
+
+div.updateFailed {
+    background-color: rgb(255, 40, 40);
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    position: relative;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+    top: 500px;
+}
+
+div.updateSuccess {
+    background-color: rgb(0, 174, 0);
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    position: relative;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+div.updating {
+    background-color: #FFD700;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    position: relative;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+input[type=text] {
+
+    width: 120px;
+
+    border: none;
+
+    border: 1px solid gray;
+
+    //border-radius: 4px;
+
+    padding: 6px;
+
+    font-family: Tahoma;
+}
+
+
+
+.GenButton {
+
+    background-color: rgb(256, 96, 3);
+
+    color: white;
+    //border-radius: 4px;
+
+    padding: 6px;
+
+    border: none;
+
+    //border: 1px solid gray;
+    font-family: Tahoma;
+
+}
